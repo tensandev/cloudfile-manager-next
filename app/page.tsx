@@ -20,7 +20,7 @@ export default function Home() {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <CircularAnimation size={40} />
-            <h1 className="text-2xl font-light tracking-tight">CLOUD FILE MANAGER</h1>
+            <h1 className="text-2xl font-light tracking-tight">CLOUDFILE-MANAGER-NEXT</h1>
           </div>
           <nav>
             <ul className="flex gap-8">
@@ -66,7 +66,7 @@ export default function Home() {
       <footer className="container mx-auto py-8 px-4 mt-16">
         <div className="h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent mb-8"></div>
         <div className="flex justify-between items-center">
-          <p className="text-xs text-gray-500">© {new Date().getFullYear()} CLOUD FILE MANAGER</p>
+          <p className="text-xs text-gray-500">© {new Date().getFullYear()} CLOUDFILE-MANAGER-NEXT</p>
           <div className="flex gap-6">
             <Link href="#" className="text-xs uppercase text-gray-500 hover:text-gray-700 transition-colors">
               PRIVACY
